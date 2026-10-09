@@ -249,7 +249,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1761334365}
-        m_TargetAssemblyTypeName: DatScript.GameManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: DatScript.GameManager, ProjectMain
         m_MethodName: RespawnPlayer
         m_Mode: 1
         m_Arguments:

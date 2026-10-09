@@ -1,0 +1,196 @@
+Action,Original path,Final path
+Move,Assets/_Game/Art/Weapon,Assets/_Game/Art/Weapons
+Move,Assets/_Game/Art/Forst,Assets/_Game/Art/Environment/Forest
+Move,Assets/_Game/Art/Vefects,Assets/_Game/Art/VFX/FirePacks
+Move,Assets/_Game/Shaders/Shaders,Assets/_Game/Shaders/Packages
+Move,Assets/_Game/Data/UI/MainMixer.mixer,Assets/_Game/Audio/Mixers/MainMixer.mixer
+Move,Assets/_Game/UI/blood_red_bar_border.png,Assets/_Game/UI/HealthBarBorder_Icon.png
+Move,Assets/_Game/UI/blood_red_bar_fill.png,Assets/_Game/UI/HealthBarFill_Icon.png
+Move,Assets/_Game/UI/UI_Corsshair_1_Icon.png,Assets/_Game/UI/Crosshair_Icon.png
+Move,Assets/_Game/Prefabs/Enemy,Assets/_Game/Prefabs/Enemies
+Move,Assets/_Game/Scripts/_Characters/Enemies/_NodeScripts/ChaseTargetAction.cs,Assets/_Game/Scripts/Characters/Enemies/Nodes/ChaseTargetAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_NodeScripts/GetWaypointAction.cs,Assets/_Game/Scripts/Characters/Enemies/Nodes/GetWaypointAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_NodeScripts/MoveToPositionAction.cs,Assets/_Game/Scripts/Characters/Enemies/Nodes/MoveToPositionAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/ArathroxAgent.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/SpiderAgent.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/ChasePlayerAction.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/SpiderChaseAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/ClickToMove.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/ClickToMove.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/EnemyAttackHandler.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/EnemyAttackHandler.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/EnemyVisualDebugger.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/EnemyVisualDebugger.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/NodeScripts/CheckStuckAction.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/NodeScripts/CheckStuckAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/NodeScripts/FindSmartPatrolPointAction.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/NodeScripts/FindSmartPatrolPointAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/NodeScripts/HearingSensorAction.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/NodeScripts/HearingSensorAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/NodeScripts/IsPlayerDetectedAction.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/NodeScripts/IsPlayerDetectedAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/NodeScripts/IsPlayerDetectedCondition.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/NodeScripts/IsPlayerDetectedCondition.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/NodeScripts/SetupAiReferencesAction.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/NodeScripts/SetupAIReferences.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/NoiseManager.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/NoiseManager.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/PlayerNoiseMaker.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/Enemy/PlayerNoiseMaker.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/InputTest.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/SpiderInputTest.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/PatrolNextPointAction.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/SpiderPatrolNextAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/PatrolPathManager.cs,Assets/_Game/Scripts/Characters/Enemies/Prototype/PatrolPathManager.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Arathrox/ArathroxCombat.cs,Assets/_Game/Scripts/Characters/Enemies/Arathrox/ArathroxCombat.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Arathrox/ArathroxMovement.cs,Assets/_Game/Scripts/Characters/Enemies/Arathrox/ArathroxMovement.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Arathrox/ArathroxProjectile.cs,Assets/_Game/Scripts/Characters/Enemies/Arathrox/ArathroxProjectile.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Arathrox/ArathroxTacticalMoveAction.cs,Assets/_Game/Scripts/Characters/Enemies/Arathrox/ArathroxTacticalMove.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Arathrox/DisableShootingOnBreak.cs,Assets/_Game/Scripts/Characters/Enemies/Arathrox/DisableShootingOnBreak.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/BossCutsceneController.cs,Assets/_Game/Scripts/UI/Cinematics/BossVideoCutscene.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanCanAttackCondition.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/CrustaspikanCanAttackCondition.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanCombat.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/CrustaspikanCombat.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanHeavyChaseAction.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/CrustaspikanHeavyChaseAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanHeavyMoveAction.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/CrustaspikanHeavyMoveAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanMovement.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/CrustaspikanMovement.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanRock.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/CrustaspikanRock.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanSkillSelectorAction.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/CrustaspikanSkillSelectorAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/SmoothStopAction.cs,Assets/_Game/Scripts/Characters/Enemies/Crustaspikan/SmoothStopAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/CrustaspikanLarvae/CrustaspikanLarvaeCombat.cs,Assets/_Game/Scripts/Characters/Enemies/CrustaspikanLarvae/CrustaspikanLarvaeCombat.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/CrustaspikanLarvae/FireAreaHazard.cs,Assets/_Game/Scripts/Characters/Enemies/CrustaspikanLarvae/FireAreaHazard.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/CrustaspikanLarvae/TriggerExplosionAction.cs,Assets/_Game/Scripts/Characters/Enemies/CrustaspikanLarvae/TriggerExplosionAction.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Droid_OII_Industrial/DroidOilBullet.cs,Assets/_Game/Scripts/Characters/Enemies/Droid_OII_Industrial/DroidOilBullet.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Droid_OII_Industrial/DroidOilCombat.cs,Assets/_Game/Scripts/Characters/Enemies/Droid_OII_Industrial/DroidOilCombat.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/EnemyHealth.cs,Assets/_Game/Scripts/Characters/Enemies/EnemyHealth.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/EnemyHitbox.cs,Assets/_Game/Scripts/Characters/Enemies/EnemyHitbox.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/EnemyMovement.cs,Assets/_Game/Scripts/Characters/Enemies/EnemyMovement.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/EnemyTestTakeDamage.cs,Assets/_Game/Scripts/Characters/Enemies/EnemyTestTakeDamage.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/SpawnPracticalSystemOnDeath.cs,Assets/_Game/Scripts/Characters/Enemies/SpawnPracticalSystemOnDeath.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/VisionSensor.cs,Assets/_Game/Scripts/Characters/Enemies/VisionSensor.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/WaypointManager.cs,Assets/_Game/Scripts/Characters/Enemies/WaypointManager.cs
+Move,Assets/_Game/Scripts/_Characters/Player/BasicRigidBodyPush.cs,Assets/_Game/Scripts/Characters/Player/BasicRigidBodyPush.cs
+Move,Assets/_Game/Scripts/_Characters/Player/BoneFixer.cs,Assets/_Game/Scripts/Characters/Player/BoneFixer.cs
+Move,Assets/_Game/Scripts/_Characters/Player/DemoPlayerAbandonedFactory/SC_FPSController.cs,Assets/_Game/Scripts/Characters/Player/DemoPlayerAbandonedFactory/SC_FPSController.cs
+Move,Assets/_Game/Scripts/_Characters/Player/PlayerAnimationController.cs,Assets/_Game/Scripts/Characters/Player/PlayerAnimationController.cs
+Move,Assets/_Game/Scripts/_Characters/Player/PlayerHealth.cs,Assets/_Game/Scripts/Characters/Player/PlayerHealth.cs
+Move,Assets/_Game/Scripts/_Characters/Player/ThirdPersonController.cs,Assets/_Game/Scripts/Characters/Player/ThirdPersonController.cs
+Move,Assets/_Game/Scripts/_Characters/Player/ThirdPersonShooterController.cs,Assets/_Game/Scripts/Characters/Player/ThirdPersonShooterController.cs
+Move,Assets/_Game/Scripts/_Core/CheckPoint.cs,Assets/_Game/Scripts/Core/Checkpoint.cs
+Move,Assets/_Game/Scripts/_Core/GameManager.cs,Assets/_Game/Scripts/Core/GameManager.cs
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/AudioListenerFix.cs,Assets/_Game/Scripts/Core/Inventory/AudioListenerFix.cs
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/GameEnums.cs,Assets/_Game/Scripts/Core/Inventory/GameEnums.cs
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/ItemController.cs,Assets/_Game/Scripts/Core/Inventory/ItemController.cs
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/ItemData.cs,Assets/_Game/Scripts/Core/Inventory/ItemData.cs
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/LevelManager.cs,Assets/_Game/Scripts/Core/Inventory/LevelManager.cs
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/PlayerInventorySystem.cs,Assets/_Game/Scripts/Core/Inventory/PlayerInventorySystem.cs
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/SellingZone.cs,Assets/_Game/Scripts/Core/Inventory/SellingZone.cs
+Move,Assets/_Game/Scripts/_Core/ObjectPoolManager.cs,Assets/_Game/Scripts/Core/ObjectPoolManager.cs
+Move,Assets/_Game/Scripts/_UI/BossHealthUI.cs,Assets/_Game/Scripts/UI/BossHealthUI.cs
+Move,Assets/_Game/Scripts/_UI/TutorialStep.cs,Assets/_Game/Scripts/UI/TutorialData.cs
+Move,Assets/_Game/Scripts/Characters/Player/RotateSkybox.cs,Assets/_Game/Scripts/Environment/Weather/RotateSkybox.cs
+Move,Assets/_Game/Scripts/DemoVFX/ParticleHandler.cs,Assets/_Game/Scripts/Effects/Demo/ParticleHandler.cs
+Move,Assets/_Game/Scripts/DemoVFX/ParticleShowcase.cs,Assets/_Game/Scripts/Effects/Demo/ParticleShowcase.cs
+Move,Assets/_Game/Scripts/DemoVFX/ProjectileShowcase/ProjectileController.cs,Assets/_Game/Scripts/Effects/Demo/ProjectileShowcase/ProjectileController.cs
+Move,Assets/_Game/Scripts/DemoVFX/Rotator.cs,Assets/_Game/Scripts/Effects/Demo/Rotator.cs
+Move,Assets/_Game/Scripts/DemoVFX/ScaleUpdater.cs,Assets/_Game/Scripts/Effects/Demo/ScaleUpdater.cs
+Move,Assets/_Game/Scripts/FlameRoom/FireParticleDamage.cs,Assets/_Game/Scripts/Environment/Fire/FireDamageTrigger.cs
+Move,Assets/_Game/Scripts/FlameRoom/FireTrapController.cs,Assets/_Game/Scripts/Environment/Fire/FireTrapController.cs
+Move,Assets/_Game/Scripts/FlameRoom/PressurePlate.cs,Assets/_Game/Scripts/Environment/Fire/PressurePlate.cs
+Move,Assets/_Game/Scripts/FlameRoom/ScreenHeatEffect.cs,Assets/_Game/Scripts/Environment/Fire/ScreenHeatEffect.cs
+Move,Assets/_Game/Scripts/FlameRoom/Scripts/LightFlicker.cs,Assets/_Game/Scripts/Environment/Fire/Scripts/LightFlicker.cs
+Move,Assets/_Game/Scripts/FlameRoom/TriggerRelay.cs,Assets/_Game/Scripts/Environment/Fire/TriggerRelay.cs
+Move,Assets/_Game/Scripts/Game/AudioCombatManager.cs,Assets/_Game/Scripts/Audio/AudioCombatManager.cs
+Move,Assets/_Game/Scripts/Game/CinematicController.cs,Assets/_Game/Scripts/UI/Cinematics/CinematicController.cs
+Move,Assets/_Game/Scripts/Game/MenuManager.cs,Assets/_Game/Scripts/UI/MenuManager.cs
+Move,Assets/_Game/Scripts/Gun/ActiveWeapon.cs,Assets/_Game/Scripts/Weapons/ActiveWeapon.cs
+Move,Assets/_Game/Scripts/Gun/Bullet/BulletProjectile.cs,Assets/_Game/Scripts/Weapons/Bullet/BulletProjectile.cs
+Move,Assets/_Game/Scripts/Gun/Bullet/BulletTarget.cs,Assets/_Game/Scripts/Weapons/Bullet/BulletTarget.cs
+Move,Assets/_Game/Scripts/Gun/CrossHairtarget.cs,Assets/_Game/Scripts/Weapons/CrossHairtarget.cs
+Move,Assets/_Game/Scripts/Gun/PickupAmmo.cs,Assets/_Game/Scripts/Weapons/PickupAmmo.cs
+Move,Assets/_Game/Scripts/Gun/PlayerAimController.cs,Assets/_Game/Scripts/Weapons/PlayerAimController.cs
+Move,Assets/_Game/Scripts/Gun/RaycastWeapon.cs,Assets/_Game/Scripts/Weapons/RaycastWeapon.cs
+Move,Assets/_Game/Scripts/Gun/RigEventRelay.cs,Assets/_Game/Scripts/Weapons/RigEventRelay.cs
+Move,Assets/_Game/Scripts/Gun/Test/AmmoDisplayer.cs,Assets/_Game/Scripts/Weapons/AmmoDisplayer.cs
+Move,Assets/_Game/Scripts/Gun/Test/BulletSpreadType.cs,Assets/_Game/Scripts/Weapons/BulletSpreadType.cs
+Move,Assets/_Game/Scripts/Gun/Test/GunType.cs,Assets/_Game/Scripts/Weapons/GunType.cs
+Move,Assets/_Game/Scripts/Gun/Test/IDamageable.cs,Assets/_Game/Scripts/Weapons/IDamageable.cs
+Move,Assets/_Game/Scripts/Gun/Test/PlayerAction.cs,Assets/_Game/Scripts/Weapons/PlayerAction.cs
+Move,Assets/_Game/Scripts/Gun/Test/PlayerGunSelector.cs,Assets/_Game/Scripts/Weapons/PlayerGunSelector.cs
+Move,Assets/_Game/Scripts/Gun/Test/Scripts Config SO/AmmoConfigSO.cs,Assets/_Game/Scripts/Weapons/Configuration/AmmoConfigSO.cs
+Move,Assets/_Game/Scripts/Gun/Test/Scripts Config SO/AudioConfigSO.cs,Assets/_Game/Scripts/Weapons/Configuration/AudioConfigSO.cs
+Move,Assets/_Game/Scripts/Gun/Test/Scripts Config SO/DamgeConfigSO.cs,Assets/_Game/Scripts/Weapons/Configuration/DamgeConfigSO.cs
+Move,Assets/_Game/Scripts/Gun/Test/Scripts Config SO/GunSO.cs,Assets/_Game/Scripts/Weapons/Configuration/GunSO.cs
+Move,Assets/_Game/Scripts/Gun/Test/Scripts Config SO/ShootConfigSO.cs,Assets/_Game/Scripts/Weapons/Configuration/ShootConfigSO.cs
+Move,Assets/_Game/Scripts/Gun/Test/Scripts Config SO/TrailConfigSO.cs,Assets/_Game/Scripts/Weapons/Configuration/TrailConfigSO.cs
+Move,Assets/_Game/Scripts/Gun/WeaponPickup.cs,Assets/_Game/Scripts/Weapons/WeaponPickup.cs
+Move,Assets/_Game/Scripts/Gun/WeaponRecoil.cs,Assets/_Game/Scripts/Weapons/WeaponRecoil.cs
+Move,Assets/_Game/Scripts/GunRoom/SecurityRoomManager.cs,Assets/_Game/Scripts/Environment/GunRoom/SecurityRoomManager.cs
+Move,Assets/_Game/Scripts/GunRoom/TurretTrap.cs,Assets/_Game/Scripts/Environment/GunRoom/TurretTrap.cs
+Move,Assets/_Game/Scripts/HorrorLight/HorrorLight.cs,Assets/_Game/Scripts/Environment/Lighting/HorrorLight.cs
+Move,Assets/_Game/Scripts/Scan/BossWeakPoint.cs,Assets/_Game/Scripts/Characters/Player/Scanning/BossWeakPoint.cs
+Move,Assets/_Game/Scripts/Scan/ScannerSystem.cs,Assets/_Game/Scripts/Characters/Player/Scanning/ScannerSystem.cs
+Move,Assets/_Game/Scripts/Scripts/Outline.cs,Assets/_Game/Scripts/Effects/Outline.cs
+Move,Assets/_Game/Scripts/Surface Manager/ImpactType.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/ImpactType.cs
+Move,Assets/_Game/Scripts/Surface Manager/PlayAudioEffect.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/PlayAudioEffect.cs
+Move,Assets/_Game/Scripts/Surface Manager/PoolableObject.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/PoolableObject.cs
+Move,Assets/_Game/Scripts/Surface Manager/SpawnObjectEffect.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/SpawnObjectEffect.cs
+Move,Assets/_Game/Scripts/Surface Manager/Surface.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/Surface.cs
+Move,Assets/_Game/Scripts/Surface Manager/SurfaceEffect.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/SurfaceEffect.cs
+Move,Assets/_Game/Scripts/Surface Manager/SurfaceManager.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/SurfaceManager.cs
+Move,Assets/_Game/Scripts/Surface Manager/SurfaceType.cs,Assets/_Game/Scripts/Weapons/ImpactSystem/SurfaceType.cs
+Move,Assets/_Game/Scripts/Weather/WeatherManager.cs,Assets/_Game/Scripts/Environment/Weather/WeatherManager.cs
+Move,Assets/_Game/Scripts/Surface Manager/LlamAcademy.ImpactSystem.asmdef,Assets/_Game/Scripts/Weapons/ImpactSystem/LlamAcademy.ImpactSystem.asmdef
+Move,Assets/_Game/Data/UI/MainMenuController.cs,Assets/_Game/Scripts/UI/MainMenuController.cs
+Move,Assets/_Game/Scripts/_Characters/Enemies/Arathrox/ArathroxAgentBehavior.asset,Assets/_Game/Data/AI/Arathrox/ArathroxAgentBehavior.asset
+Move,Assets/_Game/Scripts/_Characters/Enemies/Crustaspikan/CrustaspikanAgentBehavior.asset,Assets/_Game/Data/AI/Crustaspikan/CrustaspikanAgentBehavior.asset
+Move,Assets/_Game/Scripts/_Characters/Enemies/CrustaspikanLarvae/CrustaspikanLarvaeAgentBehavior.asset,Assets/_Game/Data/AI/CrustaspikanLarvae/CrustaspikanLarvaeAgentBehavior.asset
+Move,Assets/_Game/Scripts/_Characters/Enemies/Droid_OII_Industrial/Droid_OII_AgentBehavior.asset,Assets/_Game/Data/AI/Droid_OII_Industrial/Droid_OII_AgentBehavior.asset
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/ArathroxBehavior.asset,Assets/_Game/Data/AI/Prototype/ArathroxBehavior.asset
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Test.asset,Assets/_Game/Data/AI/Prototype/Test.asset
+Move,Assets/_Game/Scripts/_Characters/Enemies/_TEST/Enemy/Mutant.asset,Assets/_Game/Data/AI/Prototype/Mutant.asset
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/Chip.prefab,Assets/_Game/Prefabs/Items/KeyCard.prefab
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/Cube.prefab,Assets/_Game/Prefabs/Items/OldEngine.prefab
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/Data_Bolt.asset,Assets/_Game/Data/Items/OldEngine.asset
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/God.asset,Assets/_Game/Data/Items/KeyCard.asset
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/Slot1.renderTexture,Assets/_Game/UI/RenderTextures/InventorySlot1.renderTexture
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/Slot2.renderTexture,Assets/_Game/UI/RenderTextures/InventorySlot2.renderTexture
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/Slot3.renderTexture,Assets/_Game/UI/RenderTextures/InventorySlot3.renderTexture
+Move,Assets/_Game/Scripts/_Core/InvetoryCore/Slot4.renderTexture,Assets/_Game/UI/RenderTextures/InventorySlot4.renderTexture
+Move,Assets/_Game/Scripts/_UI/scala,Assets/_Game/Art/Environment/Stairs
+Move,Assets/_Game/Scripts/_Utils/InputSystem,Assets/Settings/Input/StarterAssets
+Move,Assets/_Game/Scripts/FlameRoom/8862024471639503310 (mp3cut.net).mp3,Assets/_Game/Audio/Environment/FireLoop.mp3
+Move,Assets/_Game/Scripts/Gun/Material_BulletTracer.mat,Assets/_Game/Art/Weapons/Materials/M_BulletTracer.mat
+Move,Assets/_Game/Scripts/Gun/Test/AmmoSO/AK47AmmoutConfig.asset,Assets/_Game/Data/Weapons/Ammo/AK47AmmoConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/AmmoSO/AKXAmmoutConfig.asset,Assets/_Game/Data/Weapons/Ammo/AKXAmmoConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/AmmoSO/PistolAmmoutConfig.asset,Assets/_Game/Data/Weapons/Ammo/PistolAmmoConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/AudioSO/AK47AudioConfigSO.asset,Assets/_Game/Data/Weapons/Audio/AK47AudioConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/AudioSO/AKXAudioConfigSO.asset,Assets/_Game/Data/Weapons/Audio/AKXAudioConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/AudioSO/PistolAudioConfigSO.asset,Assets/_Game/Data/Weapons/Audio/PistolAudioConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/DamageSO/AK47DamgeConfigSO.asset,Assets/_Game/Data/Weapons/Damage/AK47DamageConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/DamageSO/AKXDamgeConfigSO.asset,Assets/_Game/Data/Weapons/Damage/AKXDamageConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/DamageSO/GlockDamgeConfigSO.asset,Assets/_Game/Data/Weapons/Damage/GlockDamageConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/Enemy/AdvancedCombatDroid_ForestCamo Variant.prefab,Assets/_Game/Prefabs/Enemies/Prototype/AdvancedCombatDroid_ForestCamo Variant.prefab
+Move,Assets/_Game/Scripts/Gun/Test/GunSO/AKX.asset,Assets/_Game/Data/Weapons/Guns/AKX.asset
+Move,Assets/_Game/Scripts/Gun/Test/GunSO/Glock.asset,Assets/_Game/Data/Weapons/Guns/Glock.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Bullet Impact Audio Source.mp3,Assets/_Game/Audio/Weapons/BulletImpact.mp3
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Bullet Impact Audio Source.prefab,Assets/_Game/Prefabs/Weapons/BulletImpactAudio.prefab
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Bullet Impact Type.asset,Assets/_Game/Data/Weapons/Impact/Bullet Impact Type.asset
+Move,Assets/_Game/Scripts/Gun/Test/ShootSO/AKXShootConfig 1.asset,Assets/_Game/Data/Weapons/Shooting/AKXShootConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/ShootSO/GlockShootConfig.asset,Assets/_Game/Data/Weapons/Shooting/GlockShootConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/TrailSO/AKXTrailConfig 1.asset,Assets/_Game/Data/Weapons/Trails/AKXTrailConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/TrailSO/BlockTrailConfig.asset,Assets/_Game/Data/Weapons/Trails/BlockTrailConfig.asset
+Move,Assets/_Game/Scripts/Gun/Test/TrailSO/Hot Trail.png,Assets/_Game/Art/Weapons/Textures/HotTrail_D.png
+Move,Assets/_Game/Scripts/Gun/Test/TrailSO/HotTrail.mat,Assets/_Game/Art/Weapons/Materials/M_HotTrail.mat
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Ground/Ground Audio Effect - Bullet Impact.asset,Assets/_Game/Data/Weapons/Impact/Ground/Ground Audio Effect - Bullet Impact.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Ground/Ground Surface Effect - Bullet Impact.asset,Assets/_Game/Data/Weapons/Impact/Ground/Ground Surface Effect - Bullet Impact.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Ground/Ground Surface.asset,Assets/_Game/Data/Weapons/Impact/Ground/Ground Surface.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Ground/Spawn Metal Bullet Decal Effect.asset,Assets/_Game/Data/Weapons/Impact/Ground/Spawn Metal Bullet Decal Effect.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Ground/Spawn Metal Practical System Effect.asset,Assets/_Game/Data/Weapons/Impact/Ground/Spawn Metal Practical System Effect.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Metal/Metal Audio Effect - Bullet Impact.asset,Assets/_Game/Data/Weapons/Impact/Metal/Metal Audio Effect - Bullet Impact.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Metal/Metal Surface Effect - Bullet Impact.asset,Assets/_Game/Data/Weapons/Impact/Metal/Metal Surface Effect - Bullet Impact.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Metal/Metal Surface.asset,Assets/_Game/Data/Weapons/Impact/Metal/Metal Surface.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Metal/Spawn Metal Bullet Decal Effect.asset,Assets/_Game/Data/Weapons/Impact/Metal/Spawn Metal Bullet Decal Effect.asset
+Move,Assets/_Game/Scripts/Gun/Test/ImpactSystem/Metal/Spawn Metal Practical System Effect.asset,Assets/_Game/Data/Weapons/Impact/Metal/Spawn Metal Practical System Effect.asset
+Move,Assets/_Game/Prefabs/Enemies/Arathrox-E1/Aratthrox.prefab,Assets/_Game/Prefabs/Enemies/Arathrox-E1/Arathrox.prefab
+Move,Assets/_Game/Prefabs/Enemies/Arathrox-E1/Aratthrox-Baby.prefab,Assets/_Game/Prefabs/Enemies/Arathrox-E1/ArathroxBaby.prefab
+Delete,Assets/_Game/Scripts/Environment/ThuanTest/NewMonoBehaviourScript.cs,
+Delete,Assets/_Game/Scripts/_Characters/Enemies/_TEST/ArathroxController.cs,
+Delete,Assets/Tests/InventorySystemTests/InventorySystemTests.asmdef,
+Delete,Assets/_Game/Audio/MonsterSoundsVolumeII/Primary(AlienTiny01).wav,
+Delete,Assets/_Game/Audio/MonsterSoundsVolumeII/Creative(DistantAbsctractScreamShort06).wav,
+Delete,Assets/_Game/Audio/MonsterSoundsVolumeII/Primary(AlienPassyingby01).wav,
+Delete,Assets/_Game/Scenes/Sandbox/ThuanTest/Module/Day/ReflectionProbe-2.exr,
+Delete,Assets/_Game/Audio/MonsterSoundsVolumeII/Primary(AlienTiny02).wav,
+Delete,Assets/_Game/Scenes/Sandbox/DemoScansFactory/Factory_01_URP/DefaultHDRISky.exr,
+Delete,Assets/_Game/Audio/Arathrox/Creative(AlienDistant03).wav,
+Delete,Assets/_Game/Art/Environment/AbandonedFactory/Meshes/sm_Door_B_03_2.FBX,
+Delete,Assets/_Game/Scenes/Sandbox/ThuanTest/Module/Day/ReflectionProbe-1.exr,
+Delete,Assets/_Game/Scenes/Sandbox/ThuanTest/Module/Day/ReflectionProbe-0.exr,
+Delete,Assets/_Game/Audio/MonsterSoundsVolumeII/Creative(DistantAbsctractScream02).wav,
+Delete,Assets/_Game/Audio/MonsterSoundsVolumeII/Primary(HumanoidRoar01).wav,
+Delete,Assets/_Game/Prefabs/ItemCore/14/source/tech_6_sf.zip,

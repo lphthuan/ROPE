@@ -5,6 +5,8 @@
         "ProjectMain",
         "ThirdParty",
         "Unity.Behavior",
+        "Unity.Behavior.SerializableGUID",
+        "UnityEngine.UI",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],

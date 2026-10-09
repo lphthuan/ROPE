@@ -329,7 +329,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1450485927}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, ProjectMain
         m_MethodName: CloseOptions
         m_Mode: 1
         m_Arguments:
@@ -1535,7 +1535,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1450485927}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, ProjectMain
         m_MethodName: SetQuality
         m_Mode: 3
         m_Arguments:
@@ -1905,7 +1905,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1450485927}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, ProjectMain
         m_MethodName: SetMusicVolume
         m_Mode: 4
         m_Arguments:
@@ -2310,7 +2310,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1450485927}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, ProjectMain
         m_MethodName: SetMasterVolume
         m_Mode: 4
         m_Arguments:
@@ -2520,7 +2520,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1450485927}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, ProjectMain
         m_MethodName: OpenOptions
         m_Mode: 1
         m_Arguments:
@@ -2653,7 +2653,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1450485927}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, ProjectMain
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -3681,7 +3681,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1450485927}
-        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuController, ProjectMain
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:

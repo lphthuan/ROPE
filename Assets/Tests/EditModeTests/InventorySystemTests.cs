@@ -9,7 +9,7 @@ namespace ROPE.Tests
     public class InventorySystemTests
     {
         private List<GameObject> m_CreatedObjects = new List<GameObject>();
-        private const string assetPath = "Assets/_Game/Scripts/_Core/InvetoryCore/";
+        private const string assetPath = "Assets/_Game/Data/Items/";
 
         [TearDown]
         public void TearDown()
@@ -32,9 +32,9 @@ namespace ROPE.Tests
         [Test]
         public void Test1_ItemData_Properties_AreValid()
         {
-            ItemData testData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "Data_Bolt.asset");
+            ItemData testData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "OldEngine.asset");
             
-            Assert.IsNotNull(testData, "Không tìm thấy file Data_Bolt.asset");
+            Assert.IsNotNull(testData, "Không tìm thấy file OldEngine.asset");
             Assert.AreEqual("Old Engine", testData.itemName);
             Assert.AreEqual(ItemType.IronLarge, testData.itemType);
         }
@@ -59,7 +59,7 @@ namespace ROPE.Tests
             Assert.AreEqual(2, currentItems.Length);
         }
 
-        // --- TEST 3: KEYCARD DETECTION (Sử dụng God.asset thật) ---
+        // --- TEST 3: KEYCARD DETECTION (Sử dụng KeyCard.asset thật) ---
         [Test]
         public void Test3_Inventory_CheckKeyCard_DetectionWorks()
         {
@@ -67,7 +67,7 @@ namespace ROPE.Tests
             PlayerInventorySystem inventorySystem = playerGO.AddComponent<PlayerInventorySystem>();
             inventorySystem.inventorySlots = new[] { CreateGameObject("Slot0").transform };
             inventorySystem.keyCardName = "KeyCard";
-            ItemData keyCardData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "God.asset");
+            ItemData keyCardData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "KeyCard.asset");
 
             GameObject itemGO = CreateGameObject("KeyCardItem");
             ItemController itemController = itemGO.AddComponent<ItemController>();
@@ -79,7 +79,7 @@ namespace ROPE.Tests
             MethodInfo checkMethod = typeof(PlayerInventorySystem).GetMethod("CheckHasKeyCard", BindingFlags.NonPublic | BindingFlags.Instance);
             bool result = (bool)checkMethod.Invoke(inventorySystem, null);
 
-            Assert.IsTrue(result, "Hệ thống không nhận diện được KeyCard từ God.asset");
+            Assert.IsTrue(result, "Hệ thống không nhận diện được KeyCard từ KeyCard.asset");
         }
 
         // --- TEST 4: INVENTORY STATS CALCULATION (Dữ liệu thật) ---
@@ -89,7 +89,7 @@ namespace ROPE.Tests
             GameObject playerGO = CreateGameObject("Player");
             PlayerInventorySystem inventorySystem = playerGO.AddComponent<PlayerInventorySystem>();
 
-            ItemData realData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "Data_Bolt.asset");
+            ItemData realData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "OldEngine.asset");
             
             ItemController item = CreateGameObject("Item").AddComponent<ItemController>();
             item.data = realData;
@@ -113,7 +113,7 @@ namespace ROPE.Tests
             PlayerInventorySystem inventorySystem = playerGO.AddComponent<PlayerInventorySystem>();
             inventorySystem.inventorySlots = new[] { CreateGameObject("Slot0").transform };
 
-            ItemData realData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "Data_Bolt.asset");
+            ItemData realData = AssetDatabase.LoadAssetAtPath<ItemData>(assetPath + "OldEngine.asset");
             GameObject itemGO = CreateGameObject("RealItem");
             itemGO.AddComponent<Rigidbody>();
             itemGO.AddComponent<BoxCollider>();

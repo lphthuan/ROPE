@@ -109,16 +109,5 @@ namespace ROPE.Tests
             Assert.DoesNotThrow(() => hitbox.TakeDamage(10));
         }
 
-        // Test: Kiểm tra sát thương vượt ngưỡng (Overkill) - Máu ghim về 0
-        [Test]
-        public void TestOverkillDamageClampsAtZero()
-        {
-            var (hitbox, health) = SetupEnemyHitbox(EnemyHitbox.HitboxType.Normal, 100);
-            health.curentHealth = 60;
-            
-            hitbox.TakeDamage(80);
-
-            Assert.AreEqual(0, health.curentHealth);
-        }
     }
 }

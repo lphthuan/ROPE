@@ -9829,7 +9829,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 849037399}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: MenuManager, ProjectMain
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -69805,7 +69805,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 849037399}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: MenuManager, ProjectMain
         m_MethodName: PlayGame
         m_Mode: 3
         m_Arguments:

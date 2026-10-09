@@ -20,10 +20,10 @@ This document provides a comprehensive overview of the **ROPE** game project, it
     - `Prefabs/`: Pre-configured GameObjects (logic + art).
     - `Scenes/`: Game levels (Main scenes and Sandbox for testing).
     - `Scripts/`: C# Source code.
-        - `_Core/`: High-level systems (GameManager, Inventory).
-        - `_Characters/`: Player and Enemy logic.
-        - `_UI/`: HUD, Menus, and tutorials.
-        - `_Utils/`: Helper functions and shared utilities.
+        - `Core/`: High-level systems (GameManager, Inventory).
+        - `Characters/`: Player and Enemy logic.
+        - `UI/`: HUD, Menus, and tutorials.
+        - `Utils/`: Helper functions and shared utilities.
 - `Assets/_ThirdParty/`: Externally sourced assets (ignored in Git LFS for large binaries).
 - `Assets/_Tool/`: Editor tools and extensions.
 - `Assets/Settings/`: Configuration for Input, URP, and Post-processing.
