@@ -120,6 +120,12 @@ dừng Play Mode khi chạy trong Unity Editor, và gọi Application.Quit trong
 bản game. Ba test mới kiểm tra click Play, click Quit qua Input System UI
 và reset trạng thái pause/cursor. Xem [sửa menu](Docs/MenuInteractionFix.md).
 
+Nếu menu chỉ nhận click ở Simulator, nguyên nhân là plugin Simulator giữ
+chuột native ở trạng thái disabled. `PcGameView` trong thư mục Editor tự
+đóng Simulator và chọn Game View/PlayFocused khi chạy target PC; có thể
+áp dụng thủ công bằng `Tools > ROPE > Use PC Game View`. Native Mouse đã
+được kiểm tra với InputSettings gốc và cả nút Play/Quit đều nhận click.
+
 Trong lần kiểm tra ban đầu, Editor trên máy bị thiếu các thư viện Mono,
 bao gồm `mscorlib.dll`, và không khởi động được cả với dự án trống.
 Bộ cài chính thức đúng phiên bản đã được tải và xác minh chữ ký Unity để
