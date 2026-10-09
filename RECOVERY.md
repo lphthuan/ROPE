@@ -7,7 +7,7 @@ Build Settings gồm MainMenu, Cinematic, Map1 và MapBoss.
 Đã xác minh bằng Editor 6000.0.69f1 ngày **09/10/2026**:
 
 - Biên dịch Editor thành công.
-- **29/29 Edit Mode** và **29/29 Play Mode** thành công, không bỏ qua test.
+- **29/29 Edit Mode** và **32/32 Play Mode** thành công, không bỏ qua test.
 - Bốn scene trong Build Settings không có component bị mất script;
   mesh dùng Outline và NavMesh tại vị trí spawn đều hợp lệ.
 - Biên dịch thành công **43 assembly script Windows**, gồm `ProjectMain`,
@@ -49,8 +49,8 @@ Có thể chạy riêng `Compile`, `EditMode`, `PlayMode`, `Scenes`, hoặc
 `PlayerScripts`, và truyền `-EditorPath` nếu Unity được cài ở nơi khác.
 
 Lần xác minh cuối được chạy qua MCP trong Editor đang mở. Kết quả chính
-là `Logs/MCP/FinalEditModeResults.json`, `FinalPlayModeResults.json`,
-`FinalSceneValidation.json` và `FinalPlayerCompilation.json`;
+là `Logs/MCP/FinalEditModeResults.json`, `Menu/PlayModeResults.json`,
+`FinalSceneValidation.json` và `Menu/PlayerCompilation.json`;
 `Logs/Validation/CurrentResults.json` tổng hợp các bằng chứng này.
 Kết quả biên dịch player nằm trong `Logs/PlayerScriptAssemblies`.
 Khi chạy công cụ dòng lệnh ở trên, log và XML mới được ghi vào
@@ -114,6 +114,11 @@ Unity hiện mở MainMenu ở Edit Mode, Game View dùng preset Full HD.
 
 Xem [báo cáo clean, MCP và QA](Docs/CleanupAndQA.md) để biết cấu trúc mới,
 cách kết nối lại MCP, ảnh scene và phạm vi kiểm thử.
+
+Menu khởi động chủ động reset thời gian và mở khóa chuột. Nút Quit/Exit
+dừng Play Mode khi chạy trong Unity Editor, và gọi Application.Quit trong
+bản game. Ba test mới kiểm tra click Play, click Quit qua Input System UI
+và reset trạng thái pause/cursor. Xem [sửa menu](Docs/MenuInteractionFix.md).
 
 Trong lần kiểm tra ban đầu, Editor trên máy bị thiếu các thư viện Mono,
 bao gồm `mscorlib.dll`, và không khởi động được cả với dự án trống.

@@ -74,9 +74,9 @@ scene/Play Mode, đọc Console, chụp ảnh và chạy Unity Test Framework.
 |---|---|---|
 | Biên dịch Editor | Không có lỗi biên dịch | `FinalCompileErrors.json` |
 | Edit Mode | **29/29**, 0 fail, 0 skip | `FinalEditModeResults.json` |
-| Play Mode | **29/29**, 0 fail, 0 skip | `FinalPlayModeResults.json` |
+| Play Mode | **32/32**, 0 fail, 0 skip | `Menu/PlayModeResults.json` |
 | Build scenes | **4/4**: MainMenu, Cinematic, Map1, MapBoss | `FinalSceneValidation.json` |
-| Script Windows player | **43 assembly**, không có Editor/test assembly | `FinalPlayerCompilation.json` |
+| Script Windows player | **43 assembly**, không có Editor/test assembly | `Menu/PlayerCompilation.json` |
 | Chuyển scene sau sửa LightingData | **1/1**, 0 fail, 0 skip | `SmokeRetestResults.json` |
 
 Bước biên dịch player chỉ kiểm tra script; chưa tạo hoặc chạy bản `.exe`.
@@ -125,6 +125,12 @@ Các lỗi được sửa khi kiểm tra:
 Các test cắn, nổ và summon gọi trực tiếp sự kiện combat/animation để kiểm
 tra wiring và hiệu ứng sát thương. Đây là kiểm thử sơ bộ, không phải một
 vòng chơi hoàn chỉnh hay kiểm thử tất cả tình huống AI/độ khó.
+
+Sau đợt kiểm tra này, đã bổ sung ba test menu dùng mouse state qua
+Input System UI: Play tải Cinematic, Quit nhận click và menu reset
+pause/cursor lúc khởi động. Listener Quit thật cũng đã được kiểm tra qua
+MCP và dừng được Play Mode trong Editor. Chi tiết ở
+[MenuInteractionFix.md](MenuInteractionFix.md).
 
 ## Hình ảnh và trạng thái bàn giao
 

@@ -44,6 +44,11 @@ public class MenuManager : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    private void OnDestroy()
+    {
+        if (Instance == this) Instance = null;
+    }
+
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Reset cached PlayerInput khi chuyển scene
@@ -65,6 +70,9 @@ public class MenuManager : MonoBehaviour
 
     private void Start()
     {
+        // Entering Play Mode can preserve the cursor and pause state from the previous run.
+        Time.timeScale = 1f;
+        OnSceneLoaded(SceneManager.GetActiveScene(), LoadSceneMode.Single);
         if (pauseMenuPanel != null)
         {
             pauseMenuPanel.SetActive(false);
@@ -136,7 +144,11 @@ public class MenuManager : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("Đang thoát game...");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
     
 
